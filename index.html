@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kunal Kalra — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"> <h1>Kunal Kalra</h1></div>
+    <nav class="nav">
+      <a href="index.html" class="nav-link active">Home</a>
+      <a href="about.html" class="nav-link">About</a>
+      <a href="projects.html" class="nav-link">Projects</a>
+      <a href="contact.html" class="nav-link">Contact</a>
+      <button class="nav-toggle" id="navToggle" aria-label="toggle menu">☰</button>
+    </nav>
+  </header>
+
+  <main class="container hero">
+    <div class="hero-left">
+      <div class="avatar-wrap">
+        <img src="./assests/me.jpg" alt="Kunal Kalra" onerror="this.src='https://picsum.photos/400/400?grayscale'">
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <h1 class="headline">Hi, I'm <span class="accent">Kunal Kalra</span></h1>
+      <p class="subhead"><h1>Computer Science Undergraduate</h1></p>
+
+      <p class="lead">
+        I build clean, responsive web apps using <strong>HTML, CSS, JavaScript</strong>,
+        and I have backend exposure with Node.js & MongoDB. I enjoy solving problems and
+        shipping polished interfaces.
+      </p>
+
+      <div class="cta-row">
+        <a class="btn" href="projects.html">View Projects</a>
+        <a class="btn btn-ghost" href="about.html">About Me</a>
+      </div>
+
+      <ul class="meta-list">
+        <li>📧 <a href="mailto:kalrakunal02@gmail.com">kalrakunal02@gmail.com</a></li>
+        <li>📞 +91-9255149064</li>
+        <li>🔗 <a href="https://github.com/kunalkalra2003" target="_blank">GitHub</a></li>
+      </ul>
+    </div>
+  </main>
+
+  <section class="quick-projects">
+    <h2>Featured Projects</h2>
+    <div class="cards">
+      <article class="card">
+        <h1>Rock-Paper-Scissor (2025)</h1>
+        <p><strong>Stack:</strong> DOM,EventListner,HTML,CSS,Javascript</p>
+        <p>Developed a fully interactive Rock-Paper-Scissors game using HTML, CSS, and JavaScript that allows users to play against the computer with a dynamic and engaging interface.
+        The game features a “Rock… Paper… Scissors…” countdown animation, real-time score tracking, and a 3D flip reveal effect to display both the player’s and computer’s choices. It also includes an initial user confirmation popup, a dark-themed UI with glassmorphism effects, and smooth CSS transitions for an enhanced gaming experience.</p>
+        <a href="projects.html" class="card-link">See details →</a>
+      </article>
+
+      <article class="card">
+        <h1>Quiz Website(2025)</h1>
+        <p><strong>Stack:</strong> JavaScript, HTML, CSS</p>
+        <p>Built an interactive Quiz Application using HTML, CSS, and JavaScript that dynamically presents multiple-choice questions with a built-in timer, score tracker, and animated transitions.
+        The app begins by asking users if they want to play, then runs through a set of 10 JavaScript, HTML, and CSS-based questions, providing instant feedback for each answer. It includes smooth animations, modern UI design, and a final score screen for a complete user experience.</p> 
+        <a href="projects.html" class="card-link">See details →</a>
+      </article>
+
+      <article class="card">
+        <h1>Portfolio Website</h1>
+        <p>This site — responsive, dark-themed, multi-page portfolio built with HTML/CSS/JS.</p>
+        <a href="projects.html" class="card-link">See details →</a>
+      </article>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 Kunal Kalra — <a href="contact.html">Contact</a> • <a href="https://linkedin.com/in/kunal-kalra" target="_blank">LinkedIn</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
